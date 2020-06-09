@@ -13,3 +13,5 @@ paquetes necesarios para utilizar FaceSmash:
 	pip install flask_bcrypt
 	pip install peewee
 	pip install flask_wtf
+
+Para correr la aplicación FaceSmash es necesario que te ubiques en la carpeta donde se encuentra el archivo app.py en la terminal y uses el comando python app.py. Si tienes todo bien instalado la aplicación deberá de ejecutarse correctamente.
