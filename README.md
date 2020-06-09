@@ -8,8 +8,12 @@ Para crear un nuevo entorno virtual utiliza el siguiente comando dentro de la te
 	conda create –-name “nombre del ambiente” python=”versión de Python”
 
 paquetes necesarios para utilizar FaceSmash:
-	pip install flask
-	pip install flask_login
-	pip install flask_bcrypt
-	pip install peewee
+	pip install flask,
+	pip install flask_login,
+	pip install flask_bcrypt,
+	pip install peewee,
 	pip install flask_wtf
+
+Cabe mencionar que pip es un manejador de paquetes por lo que pip install es el comando necesario para instalar paquetes en Python.
+
+Para correr la aplicación FaceSmash es necesario que te ubiques en la carpeta donde se encuentra el archivo app.py en la terminal y uses el comando python app.py. Si tienes todo bien instalado la aplicación deberá de ejecutarse correctamente.
