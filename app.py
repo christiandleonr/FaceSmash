@@ -147,10 +147,14 @@ def post():
     return render_template('post.html', form=form)
 
 
-@app.route('/')
-def index():
-    stream = models.Post.select().limit(100)
-    return render_template('stream.html', stream=stream)
+@app.route('/contacto')
+def contacto():
+    return render_template('contacto.html')
+
+
+@app.route('/nosotros')
+def nosotros():
+    return render_template('nosotros.html')
 
 
 @app.route('/stream')
@@ -171,6 +175,12 @@ def stream(username=None):
         template = 'user_stream.html'
 
     return render_template(template, stream=streams, user=user)
+
+
+@app.route('/')
+def index():
+    stream = models.Post.select().limit(100)
+    return render_template('stream.html', stream=stream)
 
 
 @app.errorhandler(404)

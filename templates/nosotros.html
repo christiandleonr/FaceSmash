@@ -1,0 +1,13 @@
+{% from 'macros.html' import render_field %}
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>FaceSmash</h1>
+    <p class="nosotros">Es una red social
+        sencilla donde puedes encontrar publicaciones
+        de lo que otras personas están pensando, seguir
+        personas y ser seguido por tus amigos. FaceSmash
+        es una red social para todo público donde podrás
+        encontrar muchas cosas interesantes y hacer tus
+        propias publicaciones. Puede visitar también nuestra pagina de <a href="{{ url_for('contacto') }}">contacto</a> si desea obtener mayor información.</p>
+{% endblock %}

@@ -45,8 +45,9 @@ h5 {
     margin: 0;
 }
 p {
-  margin: 0;
+  margin: 10px;
   line-height: 1.5em;
+  text-align: justify;
 }
 
 /*Header*/
@@ -237,6 +238,11 @@ button.small {
   background: #FFE6B2;
   color: #C5A14E;
   margin-bottom: 20px;
+}
+
+.nosotros{
+  margin: 25px;
+  text-align: justify;
 }
 
 /*Footer*/
