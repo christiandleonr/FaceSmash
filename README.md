@@ -7,9 +7,9 @@ Al instalarlo asegurate de seleccionar la opción que pondrá el ejecutable “c
 Para crear un nuevo entorno virtual utiliza el siguiente comando dentro de la terminal:
 	conda create –-name “nombre del ambiente” python=”versión de Python”
 
-paquetes necesarios para utilizar FaceSmash:\n
-	pip install flask\n
-	pip install flask_login\n
-	pip install flask_bcrypt\n
-	pip install peewee\n
-	pip install flask_wtf\n
+paquetes necesarios para utilizar FaceSmash:
+	pip install flask
+	pip install flask_login
+	pip install flask_bcrypt
+	pip install peewee
+	pip install flask_wtf
